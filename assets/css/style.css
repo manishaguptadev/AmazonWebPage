@@ -67,7 +67,7 @@ a {
 .location {
   padding-bottom: 8px;
   width: 100%;
-  max-width: 14%;
+  max-width: 13%;
 }
 
 .icon {
@@ -85,7 +85,7 @@ a {
   display: flex;
   margin-left: 20px;
   margin-bottom: 4px;
-  max-width: 500px;
+  max-width: 50%;
   width: 100%;
 }
 
@@ -451,7 +451,7 @@ form input {
 .flex-block-container {
   background-color: #fff;
   width: 100%;
-  max-width: 1300px;
+  /* max-width: 1300px; */
   margin: 20px auto;
 }
 
@@ -491,7 +491,7 @@ form input {
 .last-block {
   background-color: #fff;
   width: 100%;
-  max-width: 1400px;
+  /* max-width: 1400px; */
   /* margin: 50px auto; */
   margin-top: 50px;
   display: flex;

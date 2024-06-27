@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="assets/css/reset.css" rel="stylesheet" />
+    <link href="assets/css/responsive.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Amazon Web</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <!-- Header Section Main Nav -->
+      <div class="header">
+        <ul class="main-nav">
+          <li class="logo">
+            <a href=""
+              ><img
+                src="assets/images/amazon-logo.png"
+                class="amazon-logo-cls"
+                alt="Amazon logo"
+            /></a>
+            <span class="spanin">.in</span>
+          </li>
+          <li>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="icon"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+              />
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"
+              />
+            </svg>
+          </li>
+          <li class="location">
+            <a href="#"
+              >Delivering to Mumbai 4000074
+              <span class="bottom-bold">Update location</span></a
+            >
+          </li>
+          <li class="search-bar">
+            <select class="all-drop">
+              <option value="All">All</option>
+            </select>
+            <form>
+              <input type="text" placeholder="Search Amazon.in" />
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </form>
+          </li>
+          <li class="language">
+            <img
+              class="flag-img"
+              src="assets/images/flag-logo.png"
+              alt="Indian Flag logo"
+            />
+            <select class="Language-drop">
+              <option value="EN">EN</option>
+            </select>
+          </li>
+          <li class="Hello-Singin">
+            <a href="#"
+              >Hello, sign in
+              <select class="account-list">
+                <option value="Account">Account And Lists</option>
+              </select></a
+            >
+          </li>
+          <li class="Orders">
+            <a href="#"
+              >Returns <span class="bottom-bold-order">& Orders</span></a
+            >
+          </li>
+          <li class="amazon-cart">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="cart"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"
+              />
+            </svg>
+            <span class="bottom-bold-cart">Cart</span>
+            <!-- <img
+              class="cart"
+              src="assets/images/amazoncart-logo.webp"
+              alt="Amazon-cart"
+            /> -->
+          </li>
+        </ul>
+      </div>
+
+      <!-- Secondary-Header Section -->
+      <div class="secondary-header">
+        <div class="left-container">
+          <ul>
+            <li class="all-list">
+              <nav role="navigation">
+                <div id="menuToggle">
+                  <input type="checkbox" />
+                  <span></span>
+                  <span></span>
+                  <span></span>
+
+                  <ul id="menu">
+                    <h5>Trending</h5>
+                    <div class="menu-wrapper">
+                      <a href="#"
+                        ><button class="search-btn" type="submit">
+                          Search
+                        </button></a
+                      >
+
+                      <a href="#"
+                        ><svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke-width="1.5"
+                          stroke="currentColor"
+                          class="icon hamburger-icons"
+                        >
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+                          />
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"
+                          /></svg
+                        >Delivering to Mumbai 4000074 Update location</a
+                      >
+                      <div class="hamburger-flag">
+                        <img
+                          class="flag-img hamurger-flag-icon"
+                          src="assets/images/flag-logo.png"
+                          alt="Indian Flag logo"
+                        />
+
+                        <a href="#"
+                          ><select>
+                            <option value="en">EN</option>
+                          </select></a
+                        >
+                      </div>
+                      <a href="#"
+                        >Hello, sign in<select>
+                          <option value="hello">Account And Lists</option>
+                        </select></a
+                      >
+                      <a href="#">Return & Orders</a>
+                      <a href="#">Best Sellers</a>
+                      <a href="#">Movers & Shakers</a>
+                      <a href="#">New Releases</a>
+                      <a href="#">Fire TV</a>
+                      <a href="#">Amazon Prime Video</a>
+                      <a href="#">Amazon Prime Music</a>
+                    </div>
+                  </ul>
+                </div>
+              </nav>
+              <!-- <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="hamburger-icon"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                />
+              </svg>
+              <span class="all">All</span> -->
+            </li>
+            <li class="all">All</li>
+            <li>
+              <select class="fresh">
+                <option value="fresh-val">Fresh</option>
+              </select>
+            </li>
+            <li>Amazon miniTv</li>
+            <li>Sell</li>
+            <li>Best Sellers</li>
+            <li>Today's Deals</li>
+            <li>Mobiles</li>
+            <li>Fashion</li>
+            <li>Electronics</li>
+
+            <li>
+              <select class="fresh">
+                <option value="fresh-val">Prime</option>
+              </select>
+            </li>
+            <li>New Releases</li>
+            <li>Home & Kitchen</li>
+            <li>Amazon Pay</li>
+            <li>Electronics</li>
+          </ul>
+        </div>
+        <!-- <div class="right-container">
+          <ul>
+            <li class="industry">Industry</li>
+            <li>Watch Now | Free Now</li>
+            <img
+              class="minitv-class"
+              src="assets/images/amazon-minitv-logo.jpg"
+              alt="Minitv logo"
+            />
+          </ul>
+        </div> -->
+      </div>
+      <div class="container">
+        <div class="banner-container">
+          <div class="banner-content">
+            <h3>Starting 199/-</h3>
+            <h5>Offers on clothing, footwear & more</h5>
+            <div class="small-content">
+              <div class="trend">
+                <img src="assets/images/return-logo.webp" alt="Trend" />
+                <h4>LATEST TREND</h4>
+              </div>
+              <div class="return">
+                <img src="assets/images/return-logo.webp" alt="Returns" />
+                <h4>EASY RETURNS</h4>
+              </div>
+            </div>
+          </div>
+          <div class="banner-img">
+            <img src="assets/images/clothing.avif" alt="Clothing Image" />
+          </div>
+        </div>
+        <!-- FLex container -->
+        <div class="felx-cards">
+          <div class="card">
+            <h2>Appliances for your home | Up to 55% off</h2>
+            <div class="col-one">
+              <div class="image-one-col">
+                <img src="assets/images/cushion.jpg" alt="AC" />
+                <p>Air conditioners</p>
+              </div>
+              <div class="image-one-col">
+                <img src="assets/images/fig.jpg" alt="Fridge" />
+                <p>Refridgerators</p>
+              </div>
+            </div>
+            <div class="col-one">
+              <div class="image-one-col">
+                <img src="assets/images/storage.jpg" alt="Oven" />
+                <p>Microwaves</p>
+              </div>
+              <div class="image-one-col">
+                <img src="assets/images/lights.jpg" alt="Fridge" />
+                <p>Washing Machine</p>
+              </div>
+            </div>
+            <a href="#">See more</a>
+          </div>
+          <div class="card">
+            <h2>Revamp your home style | Up to 50% off</h2>
+            <div class="col-one">
+              <div class="image-one-col">
+                <img src="assets/images/AC.jpg" alt="AC" />
+                <p>Cushion cover & more</p>
+              </div>
+              <div class="image-one-col">
+                <img src="assets/images/refridge.jpg" alt="Fridge" />
+                <p>Figuriness</p>
+              </div>
+            </div>
+
+            <div class="col-one">
+              <div class="image-one-col">
+                <img src="assets/images/micro.jpg" alt="Oven" />
+                <p>Home storage</p>
+              </div>
+              <div class="image-one-col">
+                <img src="assets/images/machine.jpg" alt="Fridge" />
+                <p>Lighting solutions</p>
+              </div>
+            </div>
+            <a href="#">Explore all</a>
+          </div>
+          <div class="card">
+            <h2>Appliances for your style| Up to 45% off</h2>
+            <div class="col-one">
+              <div class="image-one-col">
+                <img src="assets/images/boatt.jpg" alt="AC" />
+                <p>Head Phones</p>
+              </div>
+              <div class="image-one-col">
+                <img src="assets/images/boult.jpg" alt="Fridge" />
+                <p>Bluetooth classic</p>
+              </div>
+            </div>
+            <div class="col-one">
+              <div class="image-one-col">
+                <img src="assets/images/noise.jpg" alt="Oven" />
+                <p>Neckband</p>
+              </div>
+              <div class="image-one-col">
+                <img src="assets/images/zeb.jpg" alt="Fridge" />
+                <p>White pair bluetooth</p>
+              </div>
+            </div>
+            <a href="#">See all offers</a>
+          </div>
+          <div class="card">
+            <h2>Appliances for your wrist | Up to 55% off</h2>
+            <div class="col-one">
+              <div class="image-one-col">
+                <img src="assets/images/clothh.jpg" alt="AC" />
+                <p>Air conditioners</p>
+              </div>
+              <div class="image-one-col">
+                <img src="assets/images/handy.jpg" alt="Fridge" />
+                <p>Refridgerators</p>
+              </div>
+            </div>
+            <div class="col-one">
+              <div class="image-one-col">
+                <img src="assets/images/watchi.jpg" alt="Oven" />
+                <p>Microwaves</p>
+              </div>
+              <div class="image-one-col">
+                <img src="assets/images/necklece.jpg" alt="Fridge" />
+                <p>Washing Machine</p>
+              </div>
+            </div>
+            <a href="#">See more</a>
+          </div>
+        </div>
+        <!-- Block -->
+        <div class="flex-block-container">
+          <div class="title-tag">
+            <h3>Best Sellers in Sports,Fitness & Outdoors</h3>
+            <a href="#">See more</a>
+          </div>
+          <ul>
+            <li><img src="assets/images/yoga-mat.jpg" alt="Yoga mat" /></li>
+            <li><img src="assets/images/dumble.jpg" alt="Dumble" /></li>
+            <li>
+              <img class="watch" src="assets/images/watch.jpg" alt="Watch" />
+            </li>
+            <li><img src="assets/images/yoga-mat-yoga.jpg" alt="Yoga" /></li>
+          </ul>
+        </div>
+
+        <div class="flex-block-container next-block">
+          <div class="title-tag">
+            <h3>Electric vehicles & motorbikes</h3>
+            <a href="#">See all offers</a>
+          </div>
+          <ul>
+            <!-- <li><img src="assets/images/scooty.jpg" alt="Yoga mat" /></li> -->
+            <li><img src="assets/images/scooty-one.jpg" alt="Dumble" /></li>
+            <li>
+              <img
+                class="watch"
+                src="assets/images/scooty-three.jpg"
+                alt="Watch"
+              />
+            </li>
+
+            <li><img src="assets/images/scooty-four.jpg" alt="Yoga" /></li>
+            <li><img src="assets/images/bike.jpg" alt="Yoga" /></li>
+          </ul>
+        </div>
+        <div class="felx-cards">
+          <div class="card">
+            <h2>Appliances for your use | Up to 55% off</h2>
+            <div class="col-one">
+              <div class="image-one-col">
+                <img src="assets/images/shoe.jpg" alt="AC" />
+                <p>Sport Shoes</p>
+              </div>
+              <div class="image-one-col">
+                <img src="assets/images/necklace.jpg" alt="Fridge" />
+                <p>Party wear</p>
+              </div>
+            </div>
+            <div class="col-one">
+              <div class="image-one-col">
+                <img src="assets/images/shoe-1.jpg" alt="Oven" />
+                <p>Soft stubble shoe</p>
+              </div>
+              <div class="image-one-col">
+                <img src="assets/images/set.jpg" alt="Fridge" />
+                <p>Necklace set</p>
+              </div>
+            </div>
+            <a href="#">See more</a>
+          </div>
+          <div class="card">
+            <h2>Appliances for your carriers | Up to 55% off</h2>
+            <div class="col-one">
+              <div class="image-one-col">
+                <img src="assets/images/bag.jpg" alt="AC" />
+                <p>Bas in jenim</p>
+              </div>
+              <div class="image-one-col">
+                <img src="assets/images/bag-2.jpg" alt="Fridge" />
+                <p>Black baggage</p>
+              </div>
+            </div>
+
+            <div class="col-one">
+              <div class="image-one-col">
+                <img src="assets/images/bag-3.jpg" alt="Oven" />
+                <p>Pretty school bag</p>
+              </div>
+              <div class="image-one-col">
+                <img src="assets/images/bag-4.jpg" alt="Fridge" />
+                <p>Side handlel</p>
+              </div>
+            </div>
+            <a href="#">Explore all</a>
+          </div>
+          <div class="card">
+            <h2>Appliances for your travel | Up to 55% off</h2>
+            <div class="col-one">
+              <div class="image-one-col">
+                <img src="assets/images/luggage.jpg" alt="AC" />
+                <p>Best suite</p>
+              </div>
+              <div class="image-one-col">
+                <img src="assets/images/luggage-1.jpg" alt="Fridge" />
+                <p>Light weight luggage</p>
+              </div>
+            </div>
+            <div class="col-one">
+              <div class="image-one-col">
+                <img src="assets/images/luggage-2.jpg" alt="Oven" />
+                <p>Best Combo carrier</p>
+              </div>
+              <div class="image-one-col">
+                <img src="assets/images/luggage-3.jfif" alt="Fridge" />
+                <p>Available in cool colours</p>
+              </div>
+            </div>
+            <a href="#">See all offers</a>
+          </div>
+          <div class="card">
+            <h2>Appliances for your dressing | Up to 55% off</h2>
+            <div class="col-one">
+              <div class="image-one-col">
+                <img src="assets/images/dress.jpg" alt="AC" />
+                <p>Floral look</p>
+              </div>
+              <div class="image-one-col">
+                <img src="assets/images/dress-1.jpg" alt="Fridge" />
+                <p>Barbie Dress</p>
+              </div>
+            </div>
+            <div class="col-one">
+              <div class="image-one-col">
+                <img src="assets/images/dress-2.jpg" alt="Oven" />
+                <p>Pista waves</p>
+              </div>
+              <div class="image-one-col">
+                <img src="assets/images/dress-3.webp" alt="Fridge" />
+                <p>Marun wibing</p>
+              </div>
+            </div>
+            <a href="#">See more</a>
+          </div>
+        </div>
+        <div class="flex-block-container">
+          <div class="title-tag">
+            <h3>Best Sellers in Sports,Fitness & Outdoors</h3>
+            <a href="#">See more</a>
+          </div>
+          <ul>
+            <li><img src="assets/images/yoga-mat.jpg" alt="Yoga mat" /></li>
+            <li><img src="assets/images/dumble.jpg" alt="Dumble" /></li>
+            <li>
+              <img class="watch" src="assets/images/watch.jpg" alt="Watch" />
+            </li>
+            <li><img src="assets/images/yoga-mat-yoga.jpg" alt="Yoga" /></li>
+          </ul>
+        </div>
+        <div class="flex-block-container next-block">
+          <div class="title-tag">
+            <h3>Electric vehicles & motorbikes</h3>
+            <a href="#">See all offers</a>
+          </div>
+          <ul>
+            <!-- <li><img src="assets/images/scooty.jpg" alt="Yoga mat" /></li> -->
+            <li><img src="assets/images/scooty-one.jpg" alt="Dumble" /></li>
+            <li>
+              <img
+                class="watch"
+                src="assets/images/scooty-three.jpg"
+                alt="Watch"
+              />
+            </li>
+
+            <li><img src="assets/images/scooty-four.jpg" alt="Yoga" /></li>
+            <li><img src="assets/images/bike.jpg" alt="Yoga" /></li>
+          </ul>
+        </div>
+        <div class="felx-cards">
+          <div class="card">
+            <h2>Appliances for your home | Up to 55% off</h2>
+            <div class="col-one">
+              <div class="image-one-col">
+                <img src="assets/images/AC.jpg" alt="AC" />
+                <p>Air conditioners</p>
+              </div>
+              <div class="image-one-col">
+                <img src="assets/images/Fridge.jpg" alt="Fridge" />
+                <p>Refridgerators</p>
+              </div>
+            </div>
+            <div class="col-one">
+              <div class="image-one-col">
+                <img src="assets/images/oven.webp" alt="Oven" />
+                <p>Microwaves</p>
+              </div>
+              <div class="image-one-col">
+                <img src="assets/images/washing-machine.avif" alt="Fridge" />
+                <p>Washing Machine</p>
+              </div>
+            </div>
+            <a href="#">See more</a>
+          </div>
+          <div class="card">
+            <h2>Appliances for your home | Up to 55% off</h2>
+            <div class="col-one">
+              <div class="image-one-col">
+                <img src="assets/images/AC.jpg" alt="AC" />
+                <p>Air conditioners</p>
+              </div>
+              <div class="image-one-col">
+                <img src="assets/images/Fridge.jpg" alt="Fridge" />
+                <p>Refridgerators</p>
+              </div>
+            </div>
+
+            <div class="col-one">
+              <div class="image-one-col">
+                <img src="assets/images/oven.webp" alt="Oven" />
+                <p>Microwaves</p>
+              </div>
+              <div class="image-one-col">
+                <img src="assets/images/washing-machine.avif" alt="Fridge" />
+                <p>Washing Machine</p>
+              </div>
+            </div>
+            <a href="#">Explore all</a>
+          </div>
+          <div class="card">
+            <h2>Appliances for your home | Up to 55% off</h2>
+            <div class="col-one">
+              <div class="image-one-col">
+                <img src="assets/images/AC.jpg" alt="AC" />
+                <p>Air conditioners</p>
+              </div>
+              <div class="image-one-col">
+                <img src="assets/images/Fridge.jpg" alt="Fridge" />
+                <p>Refridgerators</p>
+              </div>
+            </div>
+            <div class="col-one">
+              <div class="image-one-col">
+                <img src="assets/images/oven.webp" alt="Oven" />
+                <p>Microwaves</p>
+              </div>
+              <div class="image-one-col">
+                <img src="assets/images/washing-machine.avif" alt="Fridge" />
+                <p>Washing Machine</p>
+              </div>
+            </div>
+            <a href="#">See all offers</a>
+          </div>
+          <div class="card">
+            <h2>Appliances for your home | Up to 55% off</h2>
+            <div class="col-one">
+              <div class="image-one-col">
+                <img src="assets/images/AC.jpg" alt="AC" />
+                <p>Air conditioners</p>
+              </div>
+              <div class="image-one-col">
+                <img src="assets/images/Fridge.jpg" alt="Fridge" />
+                <p>Refridgerators</p>
+              </div>
+            </div>
+            <div class="col-one">
+              <div class="image-one-col">
+                <img src="assets/images/oven.webp" alt="Oven" />
+                <p>Microwaves</p>
+              </div>
+              <div class="image-one-col">
+                <img src="assets/images/washing-machine.avif" alt="Fridge" />
+                <p>Washing Machine</p>
+              </div>
+            </div>
+            <a href="#">See more</a>
+          </div>
+        </div>
+        <div class="last-block">
+          <p class="recommend">See personalized recommendations</p>
+          <button type="submit">Sign in</button>
+          <p class="customer">New Customer? <a href="#">Start here</a></p>
+        </div>
+        <div class="top">
+          <a href="#">Back to top</a>
+        </div>
+        <div class="footer-main-section">
+          <div class="contents">
+            <h3>Get to know us</h3>
+            <ul>
+              <li>About Us</li>
+              <li>Career</li>
+              <li>Press Releases</li>
+              <li>Amazon Science</li>
+            </ul>
+          </div>
+          <div class="contents">
+            <h3>Connect with us</h3>
+            <ul>
+              <li>Facebook</li>
+              <li>Twitter</li>
+              <li>Instagram</li>
+            </ul>
+          </div>
+          <div class="contents">
+            <h3>Make Money with us</h3>
+            <ul>
+              <li>Sell on Amazon</li>
+              <li>Sell under Amazon Accelerator</li>
+              <li>Protect and Build Your Brand</li>
+              <li>Amazon Global Selling</li>
+              <li>Become an Affiliate</li>
+              <li>Fulfilment by Amazon</li>
+              <li>Advertise Your Prducts</li>
+              <li>Amazon Pay on Merchatnts</li>
+            </ul>
+          </div>
+          <div class="contents">
+            <h3>Let Us Help You</h3>
+            <ul>
+              <li>Covid-19 and Amazon</li>
+              <li>Your Account</li>
+              <li>Returns Centre</li>
+              <li>100% Purchase Protection</li>
+              <li>Amazon App Download</li>
+              <li>1Help</li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-mid-section">
+          <img
+            class="amazon-symbol"
+            src="assets/images/amazon-symbol.jpg"
+            alt="Amazon logo"
+          />
+          <ul class="En-In">
+            <li class="clas-one">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="earth-icon"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M12 21a9.004 9.004 0 0 0 8.716-6.747M12 21a9.004 9.004 0 0 1-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 0 1 7.843 4.582M12 3a8.997 8.997 0 0 0-7.843 4.582m15.686 0A11.953 11.953 0 0 1 12 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0 1 21 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0 1 12 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 0 1 3 12c0-1.605.42-3.113 1.157-4.418"
+                />
+              </svg>
+              <select>
+                <option value="eng">English</option>
+              </select>
+            </li>
+            <li class="clas-two">
+              <img
+                class="flag-img"
+                src="assets/images/flag-logo.png"
+                alt="Indian Flag logo"
+              />
+              <span>India</span>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-end-section">
+          <p>
+            Condition of Use & Sale &nbsp;&nbsp; Privacy Notice &nbsp;&nbsp;
+            Interest-Based Ads
+          </p>
+          <p>&copy;1996-2024,Amazon.com,Inc. or its affiliates</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
